@@ -1,0 +1,40 @@
+\documentclass[10pt,leqno]{article}
+\input{preamble}
+\input{macros}
+\input{letterfonts}
+\pagestyle{headings}
+
+\begin{document}
+\begin{titlepage}
+	\begin{center}
+		{\large \textbf{Max Planck Institut za Gravitacijsku fiziku}} \\[0.1cm]
+		{\large \textbf{Grupa za kontrolu kvantne kvalitete}}\\[0.1cm]
+		{\large \textbf{Pregled optomehanike}} \\[0.1cm]
+		{\LARGE\textbf{Doktorski studij}}\\[2.5cm]
+		\vspace{2cm}
+		{\LARGE \textbf{Adrian Udovičić}}
+		\vfill
+		\large\textbf{{Hannover, 2023} }
+	\end{center}
+\end{titlepage}
+
+\newpage
+\pagenumbering{roman}
+\selectlanguage{croatian}
+\begin{abstract}
+	\textbf{Key words:}
+\end{abstract}
+\newpage
+\tableofcontents
+\newpage
+
+\selectlanguage{croatian}
+\pagenumbering{arabic}
+%Želim da imena poglavlja budu desno.
+\section{Section1}
+\subsection{Subsection1}
+\import{sections/}{importfile1}
+\newpage
+\bibliographystyle{IEEEtran}
+\bibliography{reference}
+\end{document}
